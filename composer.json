@@ -1,0 +1,24 @@
+{
+    "name": "phpfont/opentype",
+    "description": "A library to work with OpenType fonts",
+    "keywords": ["opeentype", "font", "truetype", "truetypecollection", "ttf", "ttc"],
+    "homepage": "https://github.com/phpfont/opentype",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Walter Tamboer",
+            "email": "walter@tamboer.nl"
+        }
+    ],
+    "require": {
+        "phpfont/binary": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpFont\\OpenType\\": "src/"
+        }
+    }
+}

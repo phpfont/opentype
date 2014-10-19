@@ -85,7 +85,10 @@ class Stream extends BinaryStream implements OpenTypeStreamInterface
      */
     public function readFixed()
     {
-        return $this->readFloat32BE();
+        $d1 = $this->readInt16BE();
+        $d2 = $this->readUInt16BE();
+
+        return round($d1 + $d2 / 0x10000, 4);
     }
 
     /**

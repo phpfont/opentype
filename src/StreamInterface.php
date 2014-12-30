@@ -3,11 +3,12 @@
 namespace PhpFont\OpenType;
 
 use DateTime;
+use PhpFont\Binary\StreamInterface as BinaryStreamInterface;
 
 /**
  * The interface that descirbes the types within a OpenType font file.
  */
-interface StreamInterface
+interface StreamInterface extends BinaryStreamInterface
 {
     /**
      * Reads a byte.

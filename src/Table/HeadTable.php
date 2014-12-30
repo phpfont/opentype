@@ -162,6 +162,91 @@ class HeadTable
      */
     private $glyphDataFormat;
 
+    public function getTableVersionNumber()
+    {
+        return $this->tableVersionNumber;
+    }
+
+    public function getFontRevision()
+    {
+        return $this->fontRevision;
+    }
+
+    public function getCheckSumAdjustment()
+    {
+        return $this->checkSumAdjustment;
+    }
+
+    public function getMagicNumber()
+    {
+        return $this->magicNumber;
+    }
+
+    public function getFlags()
+    {
+        return $this->flags;
+    }
+
+    public function getUnitsPerEm()
+    {
+        return $this->unitsPerEm;
+    }
+
+    public function getCreated()
+    {
+        return $this->created;
+    }
+
+    public function getModified()
+    {
+        return $this->modified;
+    }
+
+    public function getXMin()
+    {
+        return $this->xMin;
+    }
+
+    public function getYMin()
+    {
+        return $this->yMin;
+    }
+
+    public function getXMax()
+    {
+        return $this->xMax;
+    }
+
+    public function getYMax()
+    {
+        return $this->yMax;
+    }
+
+    public function getMacStyle()
+    {
+        return $this->macStyle;
+    }
+
+    public function getLowestRecPPEM()
+    {
+        return $this->lowestRecPPEM;
+    }
+
+    public function getFontDirectionHint()
+    {
+        return $this->fontDirectionHint;
+    }
+
+    public function getIndexToLocFormat()
+    {
+        return $this->indexToLocFormat;
+    }
+
+    public function getGlyphDataFormat()
+    {
+        return $this->glyphDataFormat;
+    }
+
     /**
      * @param StreamInterface $stream The stream to read from.
      */

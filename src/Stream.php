@@ -55,7 +55,11 @@ class Stream extends BinaryStream implements OpenTypeStreamInterface
      */
     public function readUInt24()
     {
-        // TODO
+        $bytes = $this->read(3);
+
+        $buffer = unpack("N", "\x00$bytes");
+
+        return $buffer[1];
     }
 
     /**

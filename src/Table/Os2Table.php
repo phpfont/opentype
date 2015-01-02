@@ -415,4 +415,373 @@ class Os2Table
         $this->usMaxContext = $stream->readUShort();
     }
 
+    public function getVersion()
+    {
+        return $this->version;
+    }
+
+    public function getXAvgCharWidth()
+    {
+        return $this->xAvgCharWidth;
+    }
+
+    public function getUsWeightClass()
+    {
+        return $this->usWeightClass;
+    }
+
+    public function getUsWidthClass()
+    {
+        return $this->usWidthClass;
+    }
+
+    public function getFsType()
+    {
+        return $this->fsType;
+    }
+
+    public function getYSubscriptXSize()
+    {
+        return $this->ySubscriptXSize;
+    }
+
+    public function getYSubscriptYSize()
+    {
+        return $this->ySubscriptYSize;
+    }
+
+    public function getYSubscriptXOffset()
+    {
+        return $this->ySubscriptXOffset;
+    }
+
+    public function getYSubscriptYOffset()
+    {
+        return $this->ySubscriptYOffset;
+    }
+
+    public function getYSuperscriptXSize()
+    {
+        return $this->ySuperscriptXSize;
+    }
+
+    public function getYSuperscriptYSize()
+    {
+        return $this->ySuperscriptYSize;
+    }
+
+    public function getYSuperscriptXOffset()
+    {
+        return $this->ySuperscriptXOffset;
+    }
+
+    public function getYSuperscriptYOffset()
+    {
+        return $this->ySuperscriptYOffset;
+    }
+
+    public function getYStrikeoutSize()
+    {
+        return $this->yStrikeoutSize;
+    }
+
+    public function getYStrikeoutPosition()
+    {
+        return $this->yStrikeoutPosition;
+    }
+
+    public function getSFamilyClass()
+    {
+        return $this->sFamilyClass;
+    }
+
+    public function getPanose()
+    {
+        return $this->panose;
+    }
+
+    public function getUlUnicodeRange1()
+    {
+        return $this->ulUnicodeRange1;
+    }
+
+    public function getUlUnicodeRange2()
+    {
+        return $this->ulUnicodeRange2;
+    }
+
+    public function getUlUnicodeRange3()
+    {
+        return $this->ulUnicodeRange3;
+    }
+
+    public function getUlUnicodeRange4()
+    {
+        return $this->ulUnicodeRange4;
+    }
+
+    public function getAchVendID()
+    {
+        return $this->achVendID;
+    }
+
+    public function getFsSelection()
+    {
+        return $this->fsSelection;
+    }
+
+    public function getUsFirstCharIndex()
+    {
+        return $this->usFirstCharIndex;
+    }
+
+    public function getUsLastCharIndex()
+    {
+        return $this->usLastCharIndex;
+    }
+
+    public function getSTypoAscender()
+    {
+        return $this->sTypoAscender;
+    }
+
+    public function getSTypoDescender()
+    {
+        return $this->sTypoDescender;
+    }
+
+    public function getSTypoLineGap()
+    {
+        return $this->sTypoLineGap;
+    }
+
+    public function getUsWinAscent()
+    {
+        return $this->usWinAscent;
+    }
+
+    public function getUsWinDescent()
+    {
+        return $this->usWinDescent;
+    }
+
+    public function getUlCodePageRange1()
+    {
+        return $this->ulCodePageRange1;
+    }
+
+    public function getUlCodePageRange2()
+    {
+        return $this->ulCodePageRange2;
+    }
+
+    public function getSxHeight()
+    {
+        return $this->sxHeight;
+    }
+
+    public function getSCapHeight()
+    {
+        return $this->sCapHeight;
+    }
+
+    public function getUsDefaultChar()
+    {
+        return $this->usDefaultChar;
+    }
+
+    public function getUsBreakChar()
+    {
+        return $this->usBreakChar;
+    }
+
+    public function getUsMaxContext()
+    {
+        return $this->usMaxContext;
+    }
+
+    public function setVersion($version)
+    {
+        $this->version = $version;
+    }
+
+    public function setXAvgCharWidth($xAvgCharWidth)
+    {
+        $this->xAvgCharWidth = $xAvgCharWidth;
+    }
+
+    public function setUsWeightClass($usWeightClass)
+    {
+        $this->usWeightClass = $usWeightClass;
+    }
+
+    public function setUsWidthClass($usWidthClass)
+    {
+        $this->usWidthClass = $usWidthClass;
+    }
+
+    public function setFsType($fsType)
+    {
+        $this->fsType = $fsType;
+    }
+
+    public function setYSubscriptXSize($ySubscriptXSize)
+    {
+        $this->ySubscriptXSize = $ySubscriptXSize;
+    }
+
+    public function setYSubscriptYSize($ySubscriptYSize)
+    {
+        $this->ySubscriptYSize = $ySubscriptYSize;
+    }
+
+    public function setYSubscriptXOffset($ySubscriptXOffset)
+    {
+        $this->ySubscriptXOffset = $ySubscriptXOffset;
+    }
+
+    public function setYSubscriptYOffset($ySubscriptYOffset)
+    {
+        $this->ySubscriptYOffset = $ySubscriptYOffset;
+    }
+
+    public function setYSuperscriptXSize($ySuperscriptXSize)
+    {
+        $this->ySuperscriptXSize = $ySuperscriptXSize;
+    }
+
+    public function setYSuperscriptYSize($ySuperscriptYSize)
+    {
+        $this->ySuperscriptYSize = $ySuperscriptYSize;
+    }
+
+    public function setYSuperscriptXOffset($ySuperscriptXOffset)
+    {
+        $this->ySuperscriptXOffset = $ySuperscriptXOffset;
+    }
+
+    public function setYSuperscriptYOffset($ySuperscriptYOffset)
+    {
+        $this->ySuperscriptYOffset = $ySuperscriptYOffset;
+    }
+
+    public function setYStrikeoutSize($yStrikeoutSize)
+    {
+        $this->yStrikeoutSize = $yStrikeoutSize;
+    }
+
+    public function setYStrikeoutPosition($yStrikeoutPosition)
+    {
+        $this->yStrikeoutPosition = $yStrikeoutPosition;
+    }
+
+    public function setSFamilyClass($sFamilyClass)
+    {
+        $this->sFamilyClass = $sFamilyClass;
+    }
+
+    public function setPanose($panose)
+    {
+        $this->panose = $panose;
+    }
+
+    public function setUlUnicodeRange1($ulUnicodeRange1)
+    {
+        $this->ulUnicodeRange1 = $ulUnicodeRange1;
+    }
+
+    public function setUlUnicodeRange2($ulUnicodeRange2)
+    {
+        $this->ulUnicodeRange2 = $ulUnicodeRange2;
+    }
+
+    public function setUlUnicodeRange3($ulUnicodeRange3)
+    {
+        $this->ulUnicodeRange3 = $ulUnicodeRange3;
+    }
+
+    public function setUlUnicodeRange4($ulUnicodeRange4)
+    {
+        $this->ulUnicodeRange4 = $ulUnicodeRange4;
+    }
+
+    public function setAchVendID($achVendID)
+    {
+        $this->achVendID = $achVendID;
+    }
+
+    public function setFsSelection($fsSelection)
+    {
+        $this->fsSelection = $fsSelection;
+    }
+
+    public function setUsFirstCharIndex($usFirstCharIndex)
+    {
+        $this->usFirstCharIndex = $usFirstCharIndex;
+    }
+
+    public function setUsLastCharIndex($usLastCharIndex)
+    {
+        $this->usLastCharIndex = $usLastCharIndex;
+    }
+
+    public function setSTypoAscender($sTypoAscender)
+    {
+        $this->sTypoAscender = $sTypoAscender;
+    }
+
+    public function setSTypoDescender($sTypoDescender)
+    {
+        $this->sTypoDescender = $sTypoDescender;
+    }
+
+    public function setSTypoLineGap($sTypoLineGap)
+    {
+        $this->sTypoLineGap = $sTypoLineGap;
+    }
+
+    public function setUsWinAscent($usWinAscent)
+    {
+        $this->usWinAscent = $usWinAscent;
+    }
+
+    public function setUsWinDescent($usWinDescent)
+    {
+        $this->usWinDescent = $usWinDescent;
+    }
+
+    public function setUlCodePageRange1($ulCodePageRange1)
+    {
+        $this->ulCodePageRange1 = $ulCodePageRange1;
+    }
+
+    public function setUlCodePageRange2($ulCodePageRange2)
+    {
+        $this->ulCodePageRange2 = $ulCodePageRange2;
+    }
+
+    public function setSxHeight($sxHeight)
+    {
+        $this->sxHeight = $sxHeight;
+    }
+
+    public function setSCapHeight($sCapHeight)
+    {
+        $this->sCapHeight = $sCapHeight;
+    }
+
+    public function setUsDefaultChar($usDefaultChar)
+    {
+        $this->usDefaultChar = $usDefaultChar;
+    }
+
+    public function setUsBreakChar($usBreakChar)
+    {
+        $this->usBreakChar = $usBreakChar;
+    }
+
+    public function setUsMaxContext($usMaxContext)
+    {
+        $this->usMaxContext = $usMaxContext;
+    }
 }
